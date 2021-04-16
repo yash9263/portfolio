@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&family=Sriracha&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Sriracha", cursive;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-bar {
+  background-color: #00b8a9;
+  padding: 0.5rem;
+  color: white;
+}
+.title {
+  margin-left: 1rem;
+}
+.nav-list {
+  text-align: right;
+}
+.nav-item {
+  display: inline;
+  padding-right: 4.6rem;
+}
+.nav-item-active {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.intro {
+  background-color: #cadefc;
+  /* color: #e23e57; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.intro h1 {
+}
+.section {
+  padding: 2rem;
+}
+.section-color {
+  background-color: #e4f9f5;
+}
+.container {
+  max-width: 88vh;
+  margin: auto;
+}
+.container p {
+  padding: 1rem;
+}
+
+.btn {
+  border: 1px solid #dcedc1;
+  background-color: #00b8a9;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 0.2rem 0.8rem;
+  max-width: 240px;
+}
+
+.footer {
+  padding: 2rem 0;
+  width: 100%;
+  text-align: center;
+}
+.footer h3 {
+  padding-bottom: 2rem;
+}
+.footer a {
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    /* background-color: blue; */
+    margin: 0;
+    text-align: center;
+  }
+  .nav-item {
+    display: block;
+    text-align: center;
+  }
+}
