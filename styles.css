@@ -8,6 +8,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul {
+  list-style-type: none;
+}
 .nav-bar {
   background-color: #00b8a9;
   padding: 0.5rem;
@@ -70,6 +73,22 @@ a {
 }
 .footer a {
   padding-right: 2rem;
+}
+.cursor {
+  display: inline-block;
+  height: 2rem;
+  width: 1rem;
+  background-color: #000;
+  animation: blink 1.4s step-end infinite;
+}
+.projects-item {
+  padding-top: 2rem;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
